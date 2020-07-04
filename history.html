@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta charset="utf-8">
+    <title>Mahmoud Ashour</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+         *{box-sizing: border-box;}
+        body{margin: 0; background-color: cornflowerblue; color: white;}
+        .head{ padding: 10px; display: flex; justify-content: center; }
+        .head h2{width: 200px; height: 100px;  color: white; text-align: center;background-color: #ff9234; border-radius: 10px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; display: flex; align-items: center ; justify-content: center;}
+        .navbar { text-align: center;}
+        .navbar ul{list-style: none; margin: 10px; padding: 0;}
+        .navbar ul li {background-color: #ff9234; padding: 10px; display: inline-block; border-radius: 5px; margin:5px ;}
+        .navbar ul li a{text-decoration: none; color: #efefef; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; } 
+        .content{padding: 20px 0; }
+        .content h2{font-size: 40px; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; color:#efefef ;} 
+        .content p{font-weight: bold; font-size: 25px; line-height: 30px;}
+        .content .tit{text-align: left; font-size: 30px;}
+    </style>
+</head>
+    <body>
+        <div class="head"> 
+            <h2>Operating System</h2>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">What does Operating System (OS) mean?</a></li>
+                <li><a href="example.html">Examples of Operating Systems</a></li>
+                <li><a href="types.html">Types of Operating Systems</a></li>
+                <li><a href="comp.html">Components</a> </li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>History of Operating Systems</h2>
+            <p>
+                Early computers were built to perform a series of single tasks, like a calculator. Basic operating system features were developed in the 1950s, such as resident monitor functions that could automatically run different programs in succession to speed up processing. Operating systems did not exist in their modern and more complex forms until the early 1960s. Hardware features were added, that enabled use of runtime libraries, interrupts, and parallel processing. When personal computers became popular in the 1980s, operating systems were made for them similar in concept to those used on larger computers.
+
+In the 1940s, the earliest electronic digital systems had no operating systems. Electronic systems of this time were programmed on rows of mechanical switches or by jumper wires on plugboards. These were special-purpose systems that, for example, generated ballistics tables for the military or controlled the printing of payroll checks from data on punched paper cards. After programmable general purpose computers were invented, machine languages (consisting of strings of the binary digits 0 and 1 on punched paper tape) were introduced that sped up the programming process (Stern, 1981).
+In the early 1950s, a computer could execute only one program at a time. Each user had sole use of the computer for a limited period and would arrive at a scheduled time with their program and data on punched paper cards or punched tape. The program would be loaded into the machine, and the machine would be set to work until the program completed or crashed. Programs could generally be debugged via a front panel using toggle switches and panel lights. It is said that Alan Turing was a master of this on the early Manchester Mark 1 machine, and he was already deriving the primitive conception of an operating system from the principles of the universal Turing machine.
+
+Later machines came with libraries of programs, which would be linked to a user's program to assist in operations such as input and output and compiling (generating machine code from human-readable symbolic code). This was the genesis of the modern-day operating system. However, machines still ran a single job at a time. At Cambridge University in England, the job queue was at one time a washing line (clothes line) from which tapes were hung with different colored clothes-pegs to indicate job priority.
+
+An improvement was the Atlas Supervisor. Introduced with the Manchester Atlas in 1962, it is considered by many to be the first recognisable modern operating system. Brinch Hansen described it as "the most significant breakthrough in the history of operating systems."
+            </p>
+            <h2 class="tit">The First Generation (1945–1955) Vacuum Tubes and Plugboards</h2>
+            <p>After Babbage's unsuccessful efforts, little progress was made in constructing digital computers until World War II. Around the mid-1940s, Howard Aiken at Harvard, John von Neumann at the Institute for Advanced Study in Princeton, J. Presper Eckert and William Mauchley at the University of Pennsylvania, and Konrad Zuse in Germany, among others, all succeeded in building calculating engines. The first ones used mechanical relays but were very slow, with cycle times measured in seconds. Relays were later replaced by vacuum tubes. These machines were enormous, filling up entire rooms with tens of thousands of vacuum tubes, but they were still millions of times slower than even the cheapest personal computers available today.</p>
+            <p>In these early days, a single group of people designed, built, programmed, operated, and maintained each machine. All programming was done in absolute machine language, often by wiring up plugboards to control the machine's basic functions. Programming languages were unknown (even assembly language was unknown). Operating systems were unheard of. The usual mode of operation was for the programmer to sign up for a block of time on the signup sheet on the wall, then come down to the machine room, insert his or her plugboard into the computer, and spend the next few hours hoping that none of the 20,000 or so vacuum tubes would burn out during the run. Virtually all the problems were straightforward numerical calculations, such as grinding out tables of sines, cosines, and logarithms.</p>
+            <h2 class="tit">The Second Generation (1955–1965) Transistors and Batch Systems</h2>
+            <p>The introduction of the transistor in the mid-1950s changed the picture radically. Computers became reliable enough that they could be manufactured and sold to paying customers with the expectation that they would continue to function long enough to get some useful work done. For the first time, there was a clear separation between designers, builders, operators, programmers, and maintenance personnel.
+
+                These machines, now called mainframes, were locked away in specially air conditioned computer rooms, with staffs of professional operators to run them. Only big corporations or major government agencies or universities could afford the multimillion dollar price tag. To run a job (i.e., a program or set of programs), a programmer would first write the program on paper (in FORTRAN or assembler), then punch it on cards. He would then bring the card deck down to the input room and hand it to one of the operators and go drink coffee until the output was ready.</p>
+            <h2 class="tit">The Third Generation (1965–1980) ICs and Multiprogramming</h2>
+            <p>By the early 1960s, most computer manufacturers had two distinct, and totally incompatible, product lines. On the one hand there were the word-oriented, large-scale scientific computers, such as the 7094, which were used for numerical calculations in science and engineering. On the other hand, there were the character-oriented, commercial computers, such as the 1401, which were widely used for tape sorting and printing by banks and insurance companies.
+
+                Developing and maintaining two completely different product lines was an expensive proposition for the manufacturers. In addition, many new computer customers initially needed a small machine but later outgrew it and wanted a bigger machine that would run all their old programs, but faster.</p>
+            <h2 class="tit">The Fourth Generation (1980–Present) Personal Computers</h2>  
+            <p>With the development of LSI (Large Scale Integration) circuits, chips containing thousands of transistors on a square centimeter of silicon, the age of the personal computer dawned. In terms of architecture, personal computers (initially called microcomputers) were not all that different from minicomputers of the PDP-11 class, but in terms of price they certainly were different. Where the minicomputer made it possible for a department in a company or university to have its own computer, the microprocessor chip made it possible for a single individual to have his or her own personal computer.
+
+                In 1974, when Intel came out with the 8080, the first general-purpose 8-bit CPU, it wanted an operating system for the 8080, in part to be able to test it. Intel asked one of its consultants, Gary Kildall, to write one. Kildall and a friend first built a controller for the newly-released Shugart Associates 8-inch floppy disk and hooked the floppy disk up to the 8080, thus producing the first microcomputer with a disk. Kildall then wrote a disk-based operating system called CP/M (Control Program for Microcomputers) for it. Since Intel did not think that disk-based microcomputers had much of a future, when Kildall asked for the rights to CP/M, Intel granted his request. Kildall then formed a company, Digital Research, to further develop and sell CP/M.</p> 
+        </div>
+      
+    </body>
+
+
+</html>
